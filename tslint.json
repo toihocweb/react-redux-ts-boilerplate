@@ -1,0 +1,33 @@
+{
+    "defaultSeverity": "error",
+    "extends": ["tslint-react"],
+    "rules": {
+        "member-access": false,
+        "ordered-imports": false,
+        "quotemark": false,
+        "no-console": false,
+        "jsx-no-lambda": false,
+        "curly": true,
+        "no-eval": true,
+        "no-invalid-template-strings": true,
+        "no-string-literal": true,
+        "prefer-object-spread": true,
+        "triple-equals": [true, "allow-null-check"],
+        "use-isnan": true,
+        "eodline": true,
+        "indent": [true, "spaces", 4],
+        "linebreak-style": [true, "LF"],
+        "no-duplicate-imports": true,
+        "prefer-const": true,
+        "arrow-return-shorthand": true,
+        "new-parens": true,
+        "no-consecutive-blank-lines": true,
+        "semicolon": [true, "always"],
+        "no-var-keyword": true,
+        "space-within-parens": true,
+        "jsx-boolean-value": ["never"]
+    },
+    "tslint": {
+        "ignoreDefinitionFiles": false
+    }
+}
